@@ -137,9 +137,9 @@ Print in the console the TYPES of the car variable, of its licensePlate and of t
 */
 
 
-/* console.log(typeof(car.brand)) //string
+console.log(typeof(car.brand)) //string
 console.log(typeof(car.color))//string
-console.log(typeof(car.licensePlate))//number */
+console.log(typeof(car.licensePlate))//number
 
 /* EXERCISE 12
 Create a new array called carsForSale and insert 3 cars in it.
@@ -147,9 +147,9 @@ Store in a variable totalCars the number of cars present in both carsForSale and
 */
 
 
-/* let carsForSale = []
+ let carsForSale = []
 console.log(carsForSale.push("car1","car2","car3"))
-let totalCars = carsForSale + carsForRent*/
+let totalCars = carsForSale + carsForRent
 
 /* EXERCISE 13
 Print in the console the data from each car in the carsForSale array.
