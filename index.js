@@ -33,7 +33,7 @@ console.log(person)
 Add to the previously created object a boolean value to rappresent wheter you have or not a driving license.
 */
 
-console.log(person.hasDrivingLicense = True )
+console.log(person.hasDrivingLicense = 'True' )
 
 /* EXERCISE 4
 Remove from the previously created object the age property.
@@ -62,8 +62,9 @@ Write an algorithm that calculates the total cost to charge the user with.
 */
 
 
-let shipping = 10
+
 function charge(totalShoppingCart){
+let shipping = 10
 if (totalShoppingCart > 50){
   return totalShoppingCart
 }else{
