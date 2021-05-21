@@ -78,7 +78,7 @@ Modify the previous answer inserting this information and, applying the same rul
 */
 
 
- let shipping = 10
+let shipping = 10
 function charge(totalShoppingCart){
   if (totalShoppingCart > 50){
     return totalShoppingCart - totalShoppingCart*20/100
@@ -124,14 +124,14 @@ car1.licensePlate = 654321
 Create a new array called carsForRent containing all the cars from the previous exercise.
 */
 
- let carsForRent = ["car","car1","car2","car3","car4","car5"] 
+let carsForRent = ["car","car1","car2","car3","car4","car5"] 
 
 /* EXERCISE 10
 Remove the first and the last car from the carsForRent array.
 */
 
 
- console.log(carsForRent.pop())
+console.log(carsForRent.pop())
 console.log(carsForRent.shift())
 
 
